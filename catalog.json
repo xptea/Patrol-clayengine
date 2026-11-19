@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "runtimes": [
+    {
+      "id": "clay-0.3.2-windows-x64-abi44",
+      "version": "0.3.2",
+      "platform": "windows-x64",
+      "gameAbi": 44,
+      "executable": "clay.exe",
+      "download": {
+        "url": "https://github.com/xptea/Patrol-clayengine/releases/download/clay-runtime-0.3.2/clay-runtime-0.3.2-windows-x64.zip",
+        "sha256": "5beecb29d7c0505af5548a1966b3ffbafe3bba739f8116ab5855d43640eae0dd",
+        "sizeBytes": 75654279,
+        "root": "ClayRuntime"
+      }
+    }
+  ],
+  "games": [
+    {
+      "id": "patrol",
+      "name": "Patrol",
+      "version": "1.6.5",
+      "platform": "windows-x64",
+      "runtimeId": "clay-0.3.2-windows-x64-abi44",
+      "download": {
+        "url": "https://github.com/xptea/Patrol-clayengine/releases/download/patrol-1.6.5/patrol-1.6.5-windows-x64.zip",
+        "sha256": "80529f2c62c1d817845a59e6d59316673723b5043696ea1911a0badd7103468f",
+        "sizeBytes": 22773191,
+        "root": "Patrol"
+      },
+      "launch": {
+        "executable": "Patrol.exe",
+        "arguments": [
+          "--clay-runtime",
+          "{runtimeRoot}/clay.exe"
+        ]
+      }
+    }
+  ]
+}
