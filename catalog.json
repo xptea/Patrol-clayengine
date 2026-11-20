@@ -19,13 +19,13 @@
     {
       "id": "patrol",
       "name": "Patrol",
-      "version": "1.6.7",
+      "version": "1.6.8",
       "platform": "windows-x64",
       "runtimeId": "clay-0.3.2-windows-x64-abi44",
       "download": {
-        "url": "https://github.com/xptea/Patrol-clayengine/releases/download/patrol-1.6.7/patrol-1.6.7-windows-x64.zip",
-        "sha256": "db20c22e3ff5130b3933d8de3c87056c7939f456477f9c88862ccec7bc5e1756",
-        "sizeBytes": 22780112,
+        "url": "https://github.com/xptea/Patrol-clayengine/releases/download/patrol-1.6.8/patrol-1.6.8-windows-x64.zip",
+        "sha256": "994dbf94c0ab6807d14ee4b1f22f2c2f3f7e6c2c866cd0516ed8d6f3a69294c1",
+        "sizeBytes": 22780476,
         "root": "Patrol"
       },
       "launch": {
